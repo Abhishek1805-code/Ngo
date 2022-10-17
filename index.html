@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just a little drop</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Noto+Serif:ital,wght@1,700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2b125cad77.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <div class="imgslider"></div>
+            <a href="main.html" class="logo"><img src="logo2.png" alt="Company logo">Just a Little drop</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-solid fa-rectangle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html" class="active">Home</a> </li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#donate">Donate</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <!-- end of navigation -->
+        <div class="text-box">
+            <h1>Just a little Drop</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque maxime, porro possimus sapiente fugit culpa earum labore expedita cupiditate eaque alias dolorum nesciunt magnam dolore veniam velit dolorem minima necessitatibus!
+            </p>
+            <a href="" class="know-btn">Visit us to know More</a>
+        </div>
+
+    </section>
+
+    <!-------------- donation_section ----------------->
+
+    <section class="donate">
+        <h1>Donations</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="donate-col">
+                <h3>Ration</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia laudantium sed reprehenderit? Suscipit sint aliquid nulla ex facere deserunt ab labore voluptatibus quaerat, delectus tenetur quos nemo neque obcaecati assumenda.</p>
+            </div>
+            <div class="donate-col">
+                <h3>Corona Relief Seva</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia laudantium sed reprehenderit? Suscipit sint aliquid nulla ex facere deserunt ab labore voluptatibus quaerat, delectus tenetur quos nemo neque obcaecati assumenda.</p>
+            </div>
+            <div class="donate-col">
+                <h3>&nbspADIP SCHEME</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia laudantium sed reprehenderit? Suscipit sint aliquid nulla ex facere deserunt ab labore voluptatibus quaerat, delectus tenetur quos nemo neque obcaecati assumenda.</p>
+            </div>
+        </div>
+        <button class="donate-btn">Donate</button>
+    </section>
+    <section class="testimonial">
+        <h1>Overview</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="t-col">
+                <img src="1.jpg" alt="person">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus natus ut, nulla praesentium inventore molestiae fugiat facere illo commodi dolor assumenda enim, molestias illum tempora ipsa beatae, nobis cum veritatis.</p>
+                    <h3>SATADAL PANDEY</h3>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-regular fa-star"></i>
+                    <i class="fa fa-regular fa-star"></i>
+                </div>
+            </div>
+            <div class="t-col">
+                <img src="2.jpg" alt="person">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus natus ut, nulla praesentium inventore molestiae fugiat facere illo commodi dolor assumenda enim, molestias illum tempora ipsa beatae, nobis cum veritatis.</p>
+                    <h3>Salini PANDEY</h3>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-regular fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contactus">
+        <h1>Donate in our NGO to make the <br> nations future brighter.</h1>
+        <a href="" class="know-btn">CONTACT US</a>
+
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+        <h1>ABOUT US</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut unde, soluta consequuntur ratione in rem corrupti nisi explicabo debitis <br>sapiente enim dolorem nemo accusamus voluptatum maiores voluptatibus expedita aperiam harum?</p>
+        <div class="icons">
+            <i class="fa  fa-facebook"></i>
+            <i class="fa  fa-twitter"></i>
+            <i class="fa  fa-linkedin"></i>
+            <i class="fa  fa-instagram"></i>
+
+        </div>
+        <p>Made with <i class="fa fa-solid fa-heart-o"></i> by Coding_World</p>
+    </section>
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- javascript for toogle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
